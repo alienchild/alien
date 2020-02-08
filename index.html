@@ -1,126 +1,491 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Alienchild - by Déla Rostami</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" type="text/css" href="css/core.css">
-    <link rel="stylesheet" type="text/css" href="css/animsition.min.css">
-    <link rel="stylesheet" type="text/css" href="css/elements.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="icon" type="image/png" href="favicon.png?version=v1.0">
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
-<script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "Organization",
-          "url": "https://alienchildstudio.com",
-        }
-    </script>
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Alienchild Studio - by Déla Rostami</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by CocoBasic" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+        <meta name="author" content="CocoBasic" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Dela Rostami",
-  "url": "https://alienchildstudio.com",
-  "sameAs": [
-    "https://www.facebook.com/awayndotcom/",
-    "httpw://instagram.com/delaariela",
-    "https://www.linkedin.com/in/delaarielarostami/",
-    "https://www.twitter.com/yesimdela"
-  ]
-}
-</script>
-  </head>
-  <body>
-    <div id="wrapper" class="animsition">
-      <div id="loader" class="fh">
-        <section class="vcenter">
-          <div class="container">
-            <div class="indicator"> <span class="number">00</span><span class="unit">%</span>
-              <div class="loadbar">
-                <div class="inner"></div>
-              </div>
-            </div>
-            <div class="img-count"><span class="loaded"></span><span class="description">images loaded</span></div>
-          </div>
-        </section>
-      </div>
-      <header id="main-header">
-        <div class="container">
-          <div class="grid">
-            <nav class="main-nav">
-              <div class="responsive-nav">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-              </div>
-              <ul class="nav-links">
-                <li class="col-1 brand"><a href="index.html"><img alt="Peel" src="images/logo.svg" class="default"></a></li>
-                <li class="col-1 has-dropdown"><a href="projects.html" class="nav-link undefined">Projects</a>
-<!--                   <ul class="dropdown">
-                    <li><a href="projects-1-column.html" class="nav-link undefined">Grid - One column</a>
-                    </li>
-                    <li><a href="projects-2-columns.html" class="nav-link undefined">Grid - Two columns</a>
-                    </li>
-                    <li><a href="projects-4-columns.html" class="nav-link undefined">Grid - Four columns</a>
-                    </li>
-                    <li><a href="projects-masonry.html" class="nav-link undefined">Grid - Masonry</a>
-                    </li>
-                    <li><a href="project-single.html" class="nav-link undefined">Project - Single</a>
-                    </li>
-                  </ul> -->
-                </li>
-                <li class="col-1 col-offset-1"><a href="profile.html" class="nav-link undefined">Profile</a>
-                </li>
-<!--                 <li class="col-1 col-offset-1"><a href="journal.html" class="nav-link undefined">Journal</a>
-                  <ul class="dropdown">
-                    <li><a href="journal.html" class="nav-link undefined">Journal - Overview</a>
-                    </li>
-                    <li><a href="journal-single.html" class="nav-link undefined">Journal - Article</a>
-                    </li>
-                  </ul>
-                </li> -->
-                <li class="col-1 col-offset-1"><a href="contact.html" class="nav-link undefined">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+        <link rel="shortcut icon" href="images/favicon.ico" />      
+        <link href='https://fonts.googleapis.com/css?family=Poppins:400,700,800' rel='stylesheet' type='text/css'>	             
+        <link rel="stylesheet" type="text/css"  href='style.css' />
+
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>            
+                <script src="js/respond.min.js"></script>                   
+        <![endif]-->                
+    </head>
+
+    <body>
+
+        <!-- Preloader Gif -->
+        <div class="doc-loader">
+            <img src="images/preloader.gif" alt="Loading">
         </div>
-      </header>
-      <div id="inner">
-        <section class="behind-header">
-          <div >
-            <ul class="slides">
-                            <li class="slide dark">
-                              <div class="hero fs">
-                                <div style="background-image: url(images/hero/01.jpg);" class="bg faded"></div>
-                                <div class="vcenter">
-                                  <div class="container">
-                                    <div class="grid">
-                                      <div class="col-1">Welcome to</div>
-                                      <div class="col-7">
-                                        <div class="label"></div>
-                                          <h1 class="stripe animatedText">Alien Child Studio</h1></a>
-                                        <div class="label">By Dela Rostami</div>
-                                      </div>
-                                    </div>
-                                  </div>
+
+        <div id="content" class="site-content">
+
+            <div class="content-left">
+                <div class="content-left-wrapper">                     
+                    <header>
+                        <div class="toggle-holder">
+                            <div id="toggle">
+                                <div class="menu-line"></div>
+                            </div>
+                        </div>  
+
+                        <div class="top-pagination">
+                            <div class="current-num">
+                                <span>01</span>                                    
+                            </div>
+                            <div class="pagination-div"></div>
+                            <div class="total-pages-num"></div>
+                        </div>
+
+                        <div class="menu-holder">
+                            <div class="menu-wrapper relative">                                 
+                                <nav id="header-main-menu">
+                                    <ul class="main-menu sm sm-clean">
+                                        <li><a href="#home">Home</a></li>
+                                        <li><a href="#service">About</a></li>
+                                        <li><a href="#portfolio">Portfolio</a></li>                                  
+                                        <li><a href="#resume">Resume</a></li>                                  
+                                        <li><a href="#skills">Skills</a></li>                                  
+                                        <li><a href="#contact">Contact</a></li>                                  
+                                    </ul>
+                                </nav>                            
+                            </div>
+                        </div>               
+
+                        <div class="my-info-wrapper">
+                            <div class="my-info">
+                               <a href="#service"> <p class="my-info-title">About</p></a>
+                            </div>
+
+                            <div class="my-info">
+                               <a href="#portfolio"> <p class="my-info-title">Portfolio</p></a>
+                            </div>
+
+                            <div class="my-info">
+                                <a href="#resume"><p class="my-info-title">Resume</p></a>
+                            </div>
+
+                            <div class="my-info">
+                               <a href="#skills"> <p class="my-info-title">Skills</p></a>
+                            </div>
+
+                            <div class="my-info">
+                               <a href="#contact"> <p class="my-info-title">Contact</p></a>
+                            </div>
+
+
+                            <img class="my-info-signature" src="images/signature.png" alt="" />  
+                        </div>   
+
+                        <div class="big-num">                              
+                            <div class="current-big-num">01</div>
+                            <div class="icon-scroll"></div>  
+                        </div>
+                    </header>
+                </div>        
+
+            </div>
+
+            <div class="content-right">  
+                <div class="content-right-wrapper">
+                    
+                    <!-- Home Section -->  
+                    <div id="home" class="section full-width-section">
+                        <div class="section-wrapper block">
+                            <div class="home-left-part">
+                                <p class="site-des">Alien Child Studio </p>
+                                <h1 class="entry-title">Déla Rostami</h1>                                
+                                <p class="site-info">
+                                    Déla is a designer with more than 8 years of diverse experience, including leadership and product design/project management. 
+                                </p>
+
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/in/delaarielarostami/">LINKEDIN</a>
+                                    <a href="https://twitter.com/yesimdela">TWITTER</a>
+                                    <a href="https://www.behance.net/Delaram">BEHANCE</a>
                                 </div>
-                              </div>
-                            </li>
-                            
-            </ul>
-          </div>
-        </section>
-      </div>
-    </div>
-    <script src="js/vendor.js"></script>
-    <script src="modules/titan-slider/titan-slider.js"></script>
-    <script src="modules/tera-lightbox/tera-lightbox.js"></script>
-    <script src="js/functions.js"></script>
-    <script>$('#home-slider').titanSlider();</script>
-  </body>
+
+                            </div>                            
+                            <div class="home-right-part">                                
+                            </div>                            
+                        </div>
+                    </div>
+
+                    <!-- Service Section -->  
+                    <div id="service" class="section">                        
+                        <div class="section-wrapper block">
+                            <div class="content-1300">
+                                <div class="row">
+                                    <div class="one-half width-55">
+                                        <div class="services-wrapper">
+                                            <div class="service-holder">
+                                                <img src="images/service1.png" alt="" />
+                                                <h4 class="service-title">Design</h4>
+                                                <div class="service-text">
+                                                  <p>  A fullstack Product Designer, and Prouduct Manager</p>
+                                                </div>                                        
+                                            </div>                               
+
+                                            <div class="service-holder m-right-0">
+                                                <img src="images/service2.png" alt="" />
+                                                <h4 class="service-title">Develop</h4>
+                                                <div class="service-text">
+                                                 <p >   Front-end developer proficient in HTML, CSS, and JS</p>
+                                                </div>                                        
+                                            </div>                                
+
+                                        
+                                        </div>
+                                    </div>
+
+                                    <div class="one-half width-40 last">                                
+                                        <h2 class="entry-title section-title">About Déla</h2>
+                                        <p class="section-info">
+Déla Rostami is a technology entrepreneur, front-end developer, UI designer and an inspiring leader.                                        </p>
+                                        <p>
+                                           She has received her B.F.A from Minnesota State University, Moorhead in Graphic Design and her MFA in UX Research design from University of California, Davis. 
+                                        </p>
+                                        <p>
+As an avid follower of user-centered design principles, Déla has created and overhauled some of the world's largest online Entertainment, News, Technology and media platforms.                                        </p>
+                                    </div>                                                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Section -->  
+                    <div id="portfolio" class="section">                        
+                        <div class="section-wrapper block">
+                            <div class="content-1300">
+                                <div id="portfolio-wrapper" class="relative">
+                                   <h2 class="entry-title section-title">Recent Projects</h2>
+
+                                    <div class="category-filter">
+                                        <div class="category-filter-icon"></div>                       
+                                    </div>
+                                    <div class="category-filter-list button-group filters-button-group">
+                                        <div class="button is-checked" data-filter="*">All</div>
+                                        <div class="button" data-filter=".text">Managerial</div>
+                                        <div class="button" data-filter=".video">Lead Designer</div>
+                                                     
+                                    </div>
+                                    <div class="portfolio-load-content-holder"></div>
+                                    <div class="grid" id="portfolio-grid">                                                            
+                                        <div class="grid-sizer"></div>
+
+                                        <div id="p-item-1" class="grid-item element-item p-one-third text">
+                                            <a class="item-link " href="https://www.awayn.com/" >
+                                                <img src="images/portfolio1.jpg" alt="" />
+                                                <div class="portfolio-text-holder">
+                                                    <div class="portfolio-text-wrapper">
+                                                        <p class="portfolio-text">AWAYN</p>
+                                                        <p class="portfolio-cat">CCO, Product Manager</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div id="p-item-2" class="grid-item element-item p-one-third text">
+                                            <a class="item-link" href="https://adventures.thirdhome.com/" data-id="2">
+                                                <img src="images/portfolio2.jpg" alt="" />
+                                                <div class="portfolio-text-holder">
+                                                    <div class="portfolio-text-wrapper">
+                                                        <p class="portfolio-text">ThirdHome Adventures</p>
+                                                        <p class="portfolio-cat">Lead Fulstack Product Design</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div id="p-item-3" class="grid-item element-item p-one-third text">
+                                            <a class="item-link " href="https://www.chefsplate.com/" data-id="3">
+                                                <img src="images/portfolio3.jpg" alt="" />
+                                                <div class="portfolio-text-holder">
+                                                    <div class="portfolio-text-wrapper">
+                                                        <p class="portfolio-text">CookRadar (acquired)</p>
+                                                        <p class="portfolio-cat">Lead Fulstack Product Design Manager</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="grid-item element-item p-one-third video">
+                                            <a class="item-link" href="https://www.nbcnewyork.com/" data-rel="prettyPhoto[portfolio]">
+                                                <img src="images/portfolio4.jpg" alt="" />
+                                                <div class="portfolio-text-holder">
+                                                    <div class="portfolio-text-wrapper">
+                                                        <p class="portfolio-text">WNBC</p>
+                                                        <p class="portfolio-cat">Lead Visual Designer</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="grid-item element-item p-one-third image">
+                                            <a class="item-link" href="https://www.hotelsapi.com/" data-rel="prettyPhoto[portfolio]">
+                                                <img src="images/portfolio5.jpg" alt="" />
+                                                <div class="portfolio-text-holder">
+                                                    <div class="portfolio-text-wrapper">
+                                                        <p class="portfolio-text">HotelsAPI</p>
+                                                        <p class="portfolio-cat">Product Design Manager</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="grid-item element-item p-one-third image">
+                                            <a class="item-link" href="https://rentals.thirdhome.com/search" data-rel="prettyPhoto[portfolio]">
+                                                <img src="images/portfolio6.jpg" alt="" />
+                                                <div class="portfolio-text-holder">
+                                                    <div class="portfolio-text-wrapper">
+                                                        <p class="portfolio-text">ThirdHome Rentals</p>
+                                                        <p class="portfolio-cat">Lead Fulstack Product Design</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>                
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Resume Section -->  
+                    <div id="resume" class="section">                        
+                        <div class="section-wrapper block">
+                            <div class="content-1300">  
+                                <div class="row">
+                                    <div class="one-half width-55">
+                                        <h2 class="entry-title section-title">Recent Experience</h2>
+
+                                        <ul class="timeline-holder">                                        
+                                            <li class="timeline-event">
+                                                <span class="timeline-circle"></span>
+                                                <div class="timeline-event-content">
+                                                    <b>Thinkful, Inc. Product Design Mentor</b> 1-On-1 Mentorship Sessions Providing Technical And Professional Coaching On Data-Driven Decision Making, User-Research Process, Building Style Guide, User-Centered UI/UX Design, and Usability Testing
+                                                </div>
+                                                <div class="timeline-event-date">2018-20</div>
+                                            </li>
+
+                                            <li class="timeline-event">
+                                                <span class="timeline-circle"></span>
+                                                <div class="timeline-event-content">                                    
+                                                    <b>DesignLab. Product Design Mentor</b> 1-On-1 Session To Provide Technical And Professional Support
+Through Advising On The User Research Process, Collaborating As
+Teams, Articulate Designer Process, High Quality Ios, And Android
+Designs
+                                                </div>
+                                                <div class="timeline-event-date">2018-20</div>
+                                            </li>
+
+                                            <li class="timeline-event">
+                                                <span class="timeline-circle"></span>
+                                                <div class="timeline-event-content">
+                                                    <b>SlickTeams Lead Product Design</b> Design and maintained a library of collaborating application user
+interfaces to ensure the cross-product coordination, feasibility, and
+consistency
+                                                </div>
+                                                <div class="timeline-event-date">2017-19</div>
+                                            </li>
+
+                                            <li class="timeline-event">
+                                                <span class="timeline-circle"></span>
+                                                <div class="timeline-event-content">
+                                                    <b>HotelsAPI Lead Product Design Manager </b> Lead a design team to map information architectures, defining key
+content/object types and relationships between them
+                                                </div>
+                                                <div class="timeline-event-date">2016-17</div>
+                                            </li>                                           
+
+                                            <li class="timeline-event">
+                                                <span class="timeline-circle"></span>
+                                                <div class="timeline-event-content">
+                                                    <b>CookRadar Product Manager & Product Design</b> Lead visual designers and frontend engineers, and engineering teams
+on visual design deliverables, interactive prototypes, usability testing
+for startup.Product-delivery meetings that come with the agile software
+engineering process: stand-up, sprint planning, sprint kickoff, and
+retrospective.
+                                                </div>
+                                                <div class="timeline-event-date">2015-16</div>
+                                            </li>                                           
+                                        </ul>
+                                    </div>
+
+                                    <div class="one-half width-40 last">
+                                        <h2 class="entry-title section-title">Cover letter</h2>
+                                        <p class="section-info">
+I am a designer with more than 8 years of diverse experience, including leadership and product design/project management. My mission has always been to create functional design systems that solve user problems, while addressing business needs.                                        
+</p>
+                                        <p>
+As an avid follower of user-centered design principles, I have created and overhauled some of the world's largest online, News, Technology and media platforms and I always aim to inspire my teams on the vision and the mission to deliver the best outcome.                                        </p>
+                                        <p>
+As a manager and a mentor, I strive to maximize my team's productivity and personal growth through effectively monitoring progress, running weekly or biweekly sprints, and having one on one employee sessions, to  make sure that my team is set for success.                                        </p>                                   
+
+                                        <img class="my-signature" src="images/signature.png" alt="">                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Section -->  
+                    <div id="skills" class="section">                        
+                        <div class="section-wrapper block">
+                            <div class="content-1300"> 
+                                <div class="row m-bottom-60">
+                                    <h2 class="entry-title section-title">Skills</h2>
+
+                                    <div class="skill-circle-holder">
+                                        <div class="skill-circle">
+                                            <div class="skill-circle-wrapper relative" data-value="0.82" data-color="#c60136" data-empty-color="#554247">
+                                                <span class="skill-circle-num"></span>                                            
+                                            </div>
+                                            <p class="skill-circle-text">HTML, CSS, JS, Git </p>
+                                        </div>
+
+                                        <div class="skill-circle">
+                                            <div class="skill-circle-wrapper relative" data-value="0.98" data-color="#c60136" data-empty-color="#554247">
+                                                <span class="skill-circle-num"></span>                                            
+                                            </div>
+                                            <p class="skill-circle-text">Sketch & Adobe CC</p>
+                                        </div>                                
+
+                                        <div class="skill-circle">
+                                            <div class="skill-circle-wrapper relative" data-value="0.95" data-color="#c60136" data-empty-color="#554247">
+                                                <span class="skill-circle-num"></span>                                            
+                                            </div>
+                                            <p class="skill-circle-text">Flinto, Figma, Invision</p>
+                                        </div>
+
+                                        <div class="skill-circle">
+                                            <div class="skill-circle-wrapper relative" data-value="0.94" data-color="#c60136" data-empty-color="#554247">
+                                                <span class="skill-circle-num"></span>                                            
+                                            </div>
+                                            <p class="skill-circle-text">Agile</p>
+                                        </div>
+                                    </div>                                    
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="one-half">                                    
+                                        <div class="skills-holder">
+                                            <div class="skill-holder">                                        
+                                                <div class="skill-text">                                            
+                                                    <div class="skill">
+                                                        <div class="skill-fill" data-fill="95%"></div>                                                    
+                                                    </div>              
+                                                    <span> Product Roadmap</span>
+                                                </div>                
+                                                <div class="skill-percent">95%</div>
+                                            </div>
+
+                                            <div class="skill-holder">                                        
+                                                <div class="skill-text">                                            
+                                                    <div class="skill">
+                                                        <div class="skill-fill" data-fill="90%"></div>                                                   
+                                                    </div>              
+                                                    <span>Design Management</span>
+                                                </div>                                            
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="one-half last">
+                                        <div class="skills-holder sec-skills-holder">
+                                            <div class="skill-holder">                                        
+                                                <div class="skill-text">                                            
+                                                    <div class="skill">
+                                                        <div class="skill-fill" data-fill="90%"></div>                                                   
+                                                    </div>                                                
+                                                    <span>Target Market Reaserch</span>
+                                                </div>                
+                                                <div class="skill-percent">95%</div>
+                                            </div>
+
+                                            <div class="skill-holder">                                        
+                                                <div class="skill-text">                                            
+                                                    <div class="skill">
+                                                        <div class="skill-fill" data-fill="90%"></div>                                                   
+                                                    </div>              
+                                                    <span>User Reaserch</span>
+                                                </div>                
+                                                <div class="skill-percent">90%</div>
+                                            </div>                                    
+                                        </div>
+                                    </div>                                    
+                                </div>                                
+                            </div>                            
+                        </div>
+                    </div>          
+                    
+                    <!-- Contact Section -->  
+                    <div id="contact" class="section">                        
+                        <div class="section-wrapper block">
+                            <div class="content-1300">   
+                                <div class="row">
+                                    <h2 class="entry-title section-title">Get in touch</h2>
+                                    <div class="one-half width-40">
+
+                                        <p>
+                                            “Dela is very supportive, comes from real-world experience, and is very knowledgeable in UX Design. She is all about common sense!” <br> - Christine F, UX Research & Strategy
+                                        </p>
+                                        <p >
+                                            "I couldn’t have asked for a better person to work with. Dela has a keen eye for the effective design. Most importantly for me, after long days involving multiple changes, Dela always remaines poised and professional, and never buckled or expressed frustration. She has a very fun personality , and I very much enjoyed working with her." <br> - Ben Petzl, CEO Petzl Rå Sport
+                                        </p>                                    
+                                    
+                                        <p>
+                                                                                        <b>Need Dela's help?<br>
+
+                                            <b>EMAIL:</b> hello@alienchildstudio.com<br>
+                                        </p>
+                                    </div>
+
+                                    <div class="one-half width-55 last">
+                                        <div class="contact-form">
+                                            <p>
+                                                <input id="name" type="text" name="your-name" placeholder="Name">
+                                            </p>
+                                            <p>
+                                                <input id="contact-email" type="email" name="your-email" placeholder="Email">
+                                            </p>                                    
+                                            <p>
+                                                <input id="subject" type="text" name="your-subject" placeholder="Subject">
+                                            </p>
+                                            <p>
+                                                <textarea id="message" name="your-message" placeholder="Message"></textarea>
+                                            </p>
+                                            <p class="contact-submit-holder">
+                                                <input type="submit" value="SEND">
+                                            </p>                                
+                                        </div> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>            
+        </div>        
+
+        <!--Load JavaScript-->
+        <script src="js/jquery.js"></script>			                                                               
+        <script src='js/imagesloaded.pkgd.js'></script>                
+        <script src='js/jquery.prettyPhoto.js'></script>                
+        <script src='js/isotope.pkgd.js'></script>                
+        <script src='js/jquery.smartmenus.min.js'></script>                           
+        <script src='js/owl.carousel.min.js'></script>                                                            
+        <script src='js/circle-progress.min.js'></script>                                                            
+        <script src='js/main.js'></script>
+    </body>
 </html>
