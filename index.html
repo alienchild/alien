@@ -1,503 +1,295 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <title>Alienchild Studio - by Déla Rostami</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Template by CocoBasic" />
-        <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
-        <meta name="author" content="CocoBasic" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html lang="en">
 
-        <link rel="shortcut icon" href="images/favicon.ico" />      
-        <link href='https://fonts.googleapis.com/css?family=Poppins:400,700,800' rel='stylesheet' type='text/css'>	             
-        <link rel="stylesheet" type="text/css"  href='style.css' />
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Alien Child Studio by PDRVC. An Outsider agency." name="description">
+  <meta content="Dela ROstami, Pedram Ariel Rostami, Alien Child Studio by PDRVC" name="author">
+  <title>Alien Child Studio by PDRVC</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400" rel="stylesheet">
+  <!--CSS-->
+  <link href="assets/css/icofont.min.css" rel="stylesheet">
+  <link href="assets/css/linearicons.min.css" rel="stylesheet">
+  <link href="assets/css/magnific-popup.min.css" rel="stylesheet">
+  <link href="assets/css/animsition.min.css" rel="stylesheet">
+  <link href="assets/css/swiper.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!--Theme CSS-->
+  <link href="assets/css/theme.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <!--Favicons-->
+  <link href="favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="favicons/site.webmanifest" rel="manifest">
+  <link color="#5bbad5" href="favicons/safari-pinned-tab.svg" rel="mask-icon">
+  <link href="favicons/favicon.ico" rel="shortcut icon">
+  <meta content="#da532c" name="msapplication-TileColor">
+  <meta content="favicons/browserconfig.xml" name="msapplication-config">
+  <meta content="#ffffff" name="theme-color">
+</head>
 
-        <!--[if lt IE 9]>
-                <script src="js/html5.js"></script>            
-                <script src="js/respond.min.js"></script>                   
-        <![endif]-->                
-    </head>
-
-    <body>
-
-        <!-- Preloader Gif -->
-        <div class="doc-loader">
-            <img src="images/preloader.gif" alt="Loading">
+<body class="page">
+<div style="display: none">
+  <!-- svg sprite-->
+  <svg style="width:0; height:0; visibility:hidden;" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon_ion-icon-apps" viewBox="0 0 512 512">
+      <path d="M96 176h80V96H96v80zm120 240h80v-80h-80v80zm-120 0h80v-80H96v80zm0-120h80v-80H96v80zm120 0h80v-80h-80v80zM336 96v80h80V96h-80zm-120 80h80V96h-80v80zm120 120h80v-80h-80v80zm0 120h80v-80h-80v80z"/>
+    </symbol>
+  </svg>
+</div>
+<div class="page__inner animsition">
+  <header class="header  header_fixed header_offset">
+    <div class="header__container">
+      <div class="header__wrapper container-fluid">
+        <div class="header__inner">
+          <a class="logo header__logo" href="/">AC</a>
+          <button class="header__menu-button" type="button">
+            <span class="header__menu-button-inner"></span>
+          </button>
         </div>
+      </div>
+    </div>
 
-        <div id="content" class="site-content">
-
-            <div class="content-left">
-                <div class="content-left-wrapper">                     
-                    <header>
-                        <div class="toggle-holder">
-                            <div id="toggle">
-                                <div class="menu-line"></div>
-                            </div>
-                        </div>  
-
-                        <div class="top-pagination">
-                            <div class="current-num">
-                                <span>01</span>                                    
-                            </div>
-                            <div class="pagination-div"></div>
-                            <div class="total-pages-num"></div>
-                        </div>
-
-                        <div class="menu-holder">
-                            <div class="menu-wrapper relative">                                 
-                                <nav id="header-main-menu">
-                                    <ul class="main-menu sm sm-clean">
-                                        <li><a href="#home">Home</a></li>
-                                        <li><a href="#service">About</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>                                  
-                                        <li><a href="#resume">Resume</a></li>                                  
-                                        <li><a href="#skills">Skills</a></li>                                  
-                                        <li><a href="#contact">Contact</a></li>                                  
-                                    </ul>
-                                </nav>                            
-                            </div>
-                        </div>               
-
-                        <div class="my-info-wrapper">
-                            <div class="my-info">
-                               <a href="#service"> <p class="my-info-title">About</p></a>
-                            </div>
-
-                            <div class="my-info">
-                               <a href="#portfolio"> <p class="my-info-title">Portfolio</p></a>
-                            </div>
-
-                            <div class="my-info">
-                                <a href="#resume"><p class="my-info-title">Resume</p></a>
-                            </div>
-
-                            <div class="my-info">
-                               <a href="#skills"> <p class="my-info-title">Skills</p></a>
-                            </div>
-
-                            <div class="my-info">
-                               <a href="#contact"> <p class="my-info-title">Contact</p></a>
-                            </div>
-
-
-                            <img class="my-info-signature" src="images/signature.png" alt="" />  
-                        </div>   
-
-                        <div class="big-num">                              
-                            <div class="current-big-num">01</div>
-                            <div class="icon-scroll"></div>  
-                        </div>
-                    </header>
-                </div>        
-
+  </header>
+  <main>
+    <div id="home" class="zoom-image-head">
+      <div class="zoom-image-head__body">
+        <div class="zoom-image-head__bg">
+          <div class="zoom-image-head__bg-inner" style="background-image: url('assets/img/zoom-image-head-bg.jpg')"></div>
+        </div>
+        <img alt="" class="zoom-image-head__bg2" src="assets/img/zoom-image-head-bg2.png"/>
+        <div class="zoom-image-head__content container">
+          <div class="zoom-image-head__subtitle">Welcome to</div>
+          <div class="zoom-image-head__title">Alien Child
+            <br/>
+            Studio
+            <div class="zoom-image-head__subtitle"> An outsider Creative Agency.</div>
+          </div>
+             <div class="zoom-image-head__text">
+          </div>
+          <div class="zoom-image-head__icon icofont-dotted-down"></div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="zoom-counter">
+      <div class="container">
+        <div class="zoom-counter__inner">
+          <div class="zoom-counter__card" style="background-image: url('assets/img/zoom-count-bg.jpg')">
+            <div class="zoom-counter__card-title">
+              <p>since</p>
+              <p>2010</p>
             </div>
+            <div class="zoom-counter__card-value js-counter" data-counter-value="10">10</div>
+            <div class="zoom-counter__card-description">years
+              <br/>
+              experience
+            </div>
+          </div>
+          <div class="zoom-counter__info">
+            <div class="zoom-counter__subtitle">Alien Child studio</div>
+            <div class="zoom-counter__title">We Solve Problems Through Visual Storytelling
+   
+            </div>
+            <div class="zoom-counter__text">
+              <p>We are Alien Child Studio. <strong> An outsider Creative Agency.</strong><br> 
+At Alien Child, we are obsessed with using data and AI to turn your brand into a storyteller. 
 
-            <div class="content-right">  
-                <div class="content-right-wrapper">
-                    
-                    <!-- Home Section -->  
-                    <div id="home" class="section full-width-section">
-                        <div class="section-wrapper block">
-                            <div class="home-left-part">
-                                <p class="site-des">Alien Child Studio </p>
-                                <h1 class="entry-title">Déla Rostami</h1>                                
-                                <p class="site-info">
-                                    Déla is a designer with years of diverse experience, including leadership, product design management and project management. 
-                                </p>
-
-                                <div class="social-links">
-                                    <a href="https://www.linkedin.com/in/delaarielarostami/">LINKEDIN</a>
-                                    <a href="https://twitter.com/yesimdela">TWITTER</a>
-                                    <a href="https://www.behance.net/Delaram">BEHANCE</a>
-                                </div>
-
-                            </div>                            
-                            <div class="home-right-part">                                
-                            </div>                            
-                        </div>
-                    </div>
-
-                    <!-- Service Section -->  
-                    <div id="service" class="section">                        
-                        <div class="section-wrapper block">
-                            <div class="content-1300">
-                                <div class="row">
-                                    <div class="one-half width-55">
-                                        <div class="services-wrapper">
-                                            <div class="service-holder">
-                                                <img src="images/service1.png" alt="" />
-                                                <h4 class="service-title">Design</h4>
-                                                <div class="service-text">
-                                                  <p>  A Prouduct Design Manager, and Chief Content Officer </p>
-                                                </div>                                        
-                                            </div>                               
-
-                                            <div class="service-holder m-right-0">
-                                                <img src="images/service2.png" alt="" />
-                                                <h4 class="service-title">Develop</h4>
-                                                <div class="service-text">
-                                                 <p >   Front-end developer proficient in HTML, CSS, JS, jQuery, and Swift </p>
-                                                </div>                                        
-                                            </div>                                
-
-                                        
-                                        </div>
-                                    </div>
-
-                                    <div class="one-half width-40 last">                                
-                                        <h2 class="entry-title section-title">About Déla</h2>
-                                        <p class="section-info">
-Déla Rostami is a technology entrepreneur, front-end developer, UI designer and an inspiring leader.                                        </p>
-                                        <p>
-                                           She has received her B.F.A from Minnesota State University, Moorhead in Graphic Design and her MFA in UX Research design from University of California, Davis. 
-                                        </p>
-                                        <p>
-As an avid follower of user-centered design principles, Déla has created and overhauled some of the world's largest online Entertainment, News, Technology and media platforms.                                        </p>
-                                    </div>                                                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Portfolio Section -->  
-                    <div id="portfolio" class="section">                        
-                        <div class="section-wrapper block">
-                            <div class="content-1300">
-                                <div id="portfolio-wrapper" class="relative">
-                                   <h2 class="entry-title section-title">Recent Projects</h2>
-                                                 <div class="social-links" style="margin-top: -20px">
-                                    <a href="https://www.behance.net/Delaram">SEE MORE IN BEHANCE</a>
-                                </div>
-
-                                    <div class="category-filter">
-                                        <div class="category-filter-icon"></div>                       
-                                    </div>
-                                    <div class="category-filter-list button-group filters-button-group">
-                                        <div class="button is-checked" data-filter="*">All</div>
-                                        <div class="button" data-filter=".text">Managerial</div>
-                                        <div class="button" data-filter=".video">Lead Designer</div>
-                                                     
-                                    </div>
-                                    <div class="portfolio-load-content-holder"></div>
-                                    <div class="grid" id="portfolio-grid">                                                            
-                                        <div class="grid-sizer"></div>
-
-                                        <div id="p-item-1" class="grid-item element-item p-one-third text">
-                                            <a class="item-link " href="https://www.awayn.com/" >
-                                                <img src="images/portfolio1.jpg" alt="" />
-                                                <div class="portfolio-text-holder">
-                                                    <div class="portfolio-text-wrapper">
-                                                        <p class="portfolio-text">AWAYN</p>
-                                                        <p class="portfolio-cat">CCO, Product Manager</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div id="p-item-2" class="grid-item element-item p-one-third text">
-                                            <a class="item-link" href="https://adventures.thirdhome.com/" data-id="2">
-                                                <img src="images/portfolio2.jpg" alt="" />
-                                                <div class="portfolio-text-holder">
-                                                    <div class="portfolio-text-wrapper">
-                                                        <p class="portfolio-text">ThirdHome Adventures</p>
-                                                        <p class="portfolio-cat">Lead Fulstack Product Design</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div id="p-item-3" class="grid-item element-item p-one-third text">
-                                            <a class="item-link " href="https://www.chefsplate.com/" data-id="3">
-                                                <img src="images/portfolio3.jpg" alt="" />
-                                                <div class="portfolio-text-holder">
-                                                    <div class="portfolio-text-wrapper">
-                                                        <p class="portfolio-text">CookRadar (acquired)</p>
-                                                        <p class="portfolio-cat">Lead Fulstack Product Design Manager</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="grid-item element-item p-one-third video">
-                                            <a class="item-link" href="https://www.nbcnewyork.com/" data-rel="prettyPhoto[portfolio]">
-                                                <img src="images/portfolio4.jpg" alt="" />
-                                                <div class="portfolio-text-holder">
-                                                    <div class="portfolio-text-wrapper">
-                                                        <p class="portfolio-text">WNBC</p>
-                                                        <p class="portfolio-cat">Lead Visual Designer</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="grid-item element-item p-one-third image">
-                                            <a class="item-link" href="https://www.hotelsapi.com/" data-rel="prettyPhoto[portfolio]">
-                                                <img src="images/portfolio5.jpg" alt="" />
-                                                <div class="portfolio-text-holder">
-                                                    <div class="portfolio-text-wrapper">
-                                                        <p class="portfolio-text">HotelsAPI</p>
-                                                        <p class="portfolio-cat">Product Design Manager</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="grid-item element-item p-one-third image">
-                                            <a class="item-link" href="https://rentals.thirdhome.com/search" data-rel="prettyPhoto[portfolio]">
-                                                <img src="images/portfolio6.jpg" alt="" />
-                                                <div class="portfolio-text-holder">
-                                                    <div class="portfolio-text-wrapper">
-                                                        <p class="portfolio-text">ThirdHome Rentals</p>
-                                                        <p class="portfolio-cat">Lead Fulstack Product Design</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>                
-                                </div>   
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Resume Section -->  
-                    <div id="resume" class="section">                        
-                        <div class="section-wrapper block">
-                            <div class="content-1300">  
-                                <div class="row">
-                                    <div class="one-half width-55">
-                                        <h2 class="entry-title section-title">Recent Experience</h2>
-
-                                        <ul class="timeline-holder">                                        
-                                            <li class="timeline-event">
-                                                <span class="timeline-circle"></span>
-                                                <div class="timeline-event-content">
-                                                    <b>Thinkful, Inc. Product Design Mentor</b> 1-On-1 Mentorship Sessions Providing Technical And Professional Coaching On Data-Driven Decision Making, User-Research Process, Building Style Guide, User-Centered UI/UX Design, and Usability Testing
-                                                </div>
-                                                <div class="timeline-event-date">2018-20</div>
-                                            </li>
-
-                                            <li class="timeline-event">
-                                                <span class="timeline-circle"></span>
-                                                <div class="timeline-event-content">                                    
-                                                    <b>DesignLab. Product Design Mentor</b> 1-On-1 Session To Provide Technical And Professional Support
-Through Advising On The User Research Process, Collaborating As
-Teams, Articulate Designer Process, High Quality Ios, And Android
-Designs
-                                                </div>
-                                                <div class="timeline-event-date">2018-20</div>
-                                            </li>
-
-                                            <li class="timeline-event">
-                                                <span class="timeline-circle"></span>
-                                                <div class="timeline-event-content">
-                                                    <b>SlickTeams Lead Product Design</b> Design and maintained a library of collaborating application user
-interfaces to ensure the cross-product coordination, feasibility, and
-consistency
-                                                </div>
-                                                <div class="timeline-event-date">2017-19</div>
-                                            </li>
-
-                                            <li class="timeline-event">
-                                                <span class="timeline-circle"></span>
-                                                <div class="timeline-event-content">
-                                                    <b>HotelsAPI Lead Product Design Manager </b> Lead a design team to map information architectures, defining key
-content/object types and relationships between them
-                                                </div>
-                                                <div class="timeline-event-date">2016-17</div>
-                                            </li>                                           
-
-                                            <li class="timeline-event">
-                                                <span class="timeline-circle"></span>
-                                                <div class="timeline-event-content">
-                                                    <b>CookRadar Product Manager & Product Design</b> Lead visual designers and frontend engineers, and engineering teams
-on visual design deliverables, interactive prototypes, usability testing
-for startup.Product-delivery meetings that come with the agile software
-engineering process: stand-up, sprint planning, sprint kickoff, and
-retrospective.
-                                                </div>
-                                                <div class="timeline-event-date">2015-16</div>
-                                            </li>                                           
-                                        </ul>
-                                    </div>
-
-                                    <div class="one-half width-40 last">
-                                        <h2 class="entry-title section-title">Cover letter</h2>
-                                        <p class="section-info">
-I am a designer with more than 8 years of diverse experience, including leadership and product design/project management. My mission has always been to create functional design systems that solve user problems, while addressing business needs.                                        
-</p>
-                                        <p>
-As an avid follower of user-centered design principles, I have created and overhauled some of the world's largest online, News, Technology and media platforms and I always aim to inspire my teams on the vision and the mission to deliver the best outcome.                                        </p>
-                                        <p>
-As a manager and a mentor, I strive to maximize my team's productivity and personal growth through effectively monitoring progress, running weekly or biweekly sprints, and having one on one employee sessions, to  make sure that my team is set for success.                                        </p>                                   
-
-                                        <img class="my-signature" src="images/signature.png" alt="">                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Skills Section -->  
-                    <div id="skills" class="section">                        
-                        <div class="section-wrapper block">
-                            <div class="content-1300"> 
-                                <div class="row m-bottom-60">
-                                    <h2 class="entry-title section-title">Skills</h2>
-
-                                    <div class="skill-circle-holder">
-                                        <div class="skill-circle">
-                                            <div class="skill-circle-wrapper relative" data-value="0.82" data-color="#c60136" data-empty-color="#554247">
-                                                <span class="skill-circle-num"></span>                                            
-                                            </div>
-                                            <p class="skill-circle-text">HTML, CSS, JS, Git </p>
-                                        </div>
-
-                                        <div class="skill-circle">
-                                            <div class="skill-circle-wrapper relative" data-value="0.98" data-color="#c60136" data-empty-color="#554247">
-                                                <span class="skill-circle-num"></span>                                            
-                                            </div>
-                                            <p class="skill-circle-text">Sketch & Adobe CC</p>
-                                        </div>                                
-
-                                        <div class="skill-circle">
-                                            <div class="skill-circle-wrapper relative" data-value="0.95" data-color="#c60136" data-empty-color="#554247">
-                                                <span class="skill-circle-num"></span>                                            
-                                            </div>
-                                            <p class="skill-circle-text">Flinto, Figma, Invision</p>
-                                        </div>
-
-                                        <div class="skill-circle">
-                                            <div class="skill-circle-wrapper relative" data-value="0.94" data-color="#c60136" data-empty-color="#554247">
-                                                <span class="skill-circle-num"></span>                                            
-                                            </div>
-                                            <p class="skill-circle-text">Agile</p>
-                                        </div>
-                                    </div>                                    
-                                </div>
-
-
-                                <div class="row">
-                                    <div class="one-half">                                    
-                                        <div class="skills-holder">
-                                            <div class="skill-holder">                                        
-                                                <div class="skill-text">                                            
-                                                    <div class="skill">
-                                                        <div class="skill-fill" data-fill="95%"></div>                                                    
-                                                    </div>              
-                                                    <span> Product Roadmap</span>
-                                                </div>                
-                                                <div class="skill-percent">95%</div>
-                                            </div>
-
-                                            <div class="skill-holder">                                        
-                                                <div class="skill-text">                                            
-                                                    <div class="skill">
-                                                        <div class="skill-fill" data-fill="90%"></div>                                                   
-                                                    </div>              
-                                                    <span>Design Management</span>
-                                                </div>                                            
-                                                <div class="skill-percent">90%</div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="one-half last">
-                                        <div class="skills-holder sec-skills-holder">
-                                            <div class="skill-holder">                                        
-                                                <div class="skill-text">                                            
-                                                    <div class="skill">
-                                                        <div class="skill-fill" data-fill="90%"></div>                                                   
-                                                    </div>                                                
-                                                    <span>Target Market Reaserch</span>
-                                                </div>                
-                                                <div class="skill-percent">95%</div>
-                                            </div>
-
-                                            <div class="skill-holder">                                        
-                                                <div class="skill-text">                                            
-                                                    <div class="skill">
-                                                        <div class="skill-fill" data-fill="90%"></div>                                                   
-                                                    </div>              
-                                                    <span>User Reaserch</span>
-                                                </div>                
-                                                <div class="skill-percent">90%</div>
-                                            </div>                                    
-                                        </div>
-                                    </div>                                    
-                                </div>                                
-                            </div>                            
-                        </div>
-                    </div>          
-                    
-                    <!-- Contact Section -->  
-                    <div id="contact" class="section">                        
-                        <div class="section-wrapper block">
-                            <div class="content-1300">   
-                                <div class="row">
-                                    <h2 class="entry-title section-title">Get in touch</h2>
-                                    <div class="one-half width-40">
-
-                                        <p>
-                                            “Dela is very supportive, comes from real-world experience, and is very knowledgeable in UX Design. She is all about common sense!” <br> - Christine F, UX Research & Strategy
-                                        </p>
-                                        <p >
-                                            "I couldn’t have asked for a better person to work with. Dela has a keen eye for the effective design. Most importantly for me, after long days involving multiple changes, Dela always remaines poised and professional, and never buckled or expressed frustration. She has a very fun personality , and I very much enjoyed working with her." <br> - Ben Petzl, CEO Petzl Rå Sport
-                                        </p>                                    
-                                    
-                                        <p>
-                                           <b>For mentorship, advising or other opportunities<br>
-
-                                            <b>EMAIL:</b> hello@alienchildstudio.com<br>
-                                        </p>
-                                    </div>
-
-                                    <div class="one-half width-55 last">
-                                        <div class="contact-form">
-                                            <p>
-                                                <input id="name" type="text" name="your-name" placeholder="Name">
-                                            </p>
-                                            <p>
-                                                <input id="contact-email" type="email" name="your-email" placeholder="Email">
-                                            </p>                                    
-                                            <p>
-                                                <input id="subject" type="text" name="your-subject" placeholder="Subject">
-                                            </p>
-                                            <p>
-                                                <textarea id="message" name="your-message" placeholder="Message"></textarea>
-                                            </p>
-                                            <p class="contact-submit-holder">
-                                                <input type="submit" value="SEND">
-                                            </p>                                
-                                        </div> 
-                                    </div> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+By leveraging compelling narratives, we help you place your customer at the heart of your story. </p>
+            </div>
+            <a class="zoom-counter__read-more zoom-counter__read-more_inverted" href="#">more about us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="works" class="zoom-slider">
+      <div class="zoom-slider__header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-2">
+              <div class="zoom-slider__title">Our Latest Clients</div>
+            </div>
+<!--             <div class="col-12 col-lg-8">
+              <div class="zoom-slider__filter">
+                <a class="zoom-slider__filter-link link link link_active" data-value="all" href="#">All</a>
+                <a class="zoom-slider__filter-link link" data-value="architecture" href="#">Architecture</a>
+                <a class="zoom-slider__filter-link link" data-value="residential" href="#">Residential</a>
+                <a class="zoom-slider__filter-link link" data-value="interior" href="#">Interior</a>
+                <a class="zoom-slider__filter-link link" data-value="landscape" href="#">Landscape</a>
+              </div>
+            </div> -->
+<!--             <div class="col-12 col-lg-2 text-lg-right">
+              <a class="zoom-slider__head-link" href="#">see all projects
+                <span class="zoom-slider__head-icon icon-chevron-right"></span>
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="zoom-slider__slider-wrapper">
+        <button class="zoom-slider__control zoom-slider__control_prev icon-chevron-left" type="button">
+          <span class="visually-hidden">prev</span>
+        </button>
+        <button class="zoom-slider__control zoom-slider__control_next icon-chevron-right" type="button">
+          <span class="visually-hidden">next</span>
+        </button>
+        <div class="zoom-slider__slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="zoom-slider__slide swiper-slide" data-filter="residential" style="background-image: url('img/zoom-slide-image-1.jpg')"></div>
+            <div class="zoom-slider__slide swiper-slide" data-filter="architecture" style="background-image: url('img/zoom-slide-image-2.jpg')"></div>
+            <div class="zoom-slider__slide swiper-slide" data-filter="residential" style="background-image: url('img/zoom-slide-image-3.jpg')"></div>
+            <div class="zoom-slider__slide swiper-slide" data-filter="interior" style="background-image: url('img/zoom-slide-image-4.jpg')"></div>
+            <div class="zoom-slider__slide swiper-slide" data-filter="landscape" style="background-image: url('img/zoom-slide-image-5.jpg')"></div>
+            <div class="zoom-slider__slide swiper-slide" data-filter="residential" style="background-image: url('img/zoom-slide-image-6.png')"></div>
+          </div>
+        </div>
+        <div class="zoom-slider__buttons swiper-container gallery-thumbs">
+          <div class="swiper-wrapper">
+            <button class="zoom-slider__button zoom-slider__button_active swiper-slide" data-filter="residential" type="button">
+              <span class="zoom-slider__button-title">CookRadar</span>
+            </button>
+            <button class="zoom-slider__button swiper-slide" data-filter="architecture" type="button">
+              <span class="zoom-slider__button-title">HotelsAPI</span>
+            </button>
+            <button class="zoom-slider__button swiper-slide" data-filter="residential" type="button">
+              <span class="zoom-slider__button-title">Companion</span>
+            </button>
+            <button class="zoom-slider__button swiper-slide" data-filter="interior" type="button">
+              <span class="zoom-slider__button-title">AWAYN</span>
+            </button>
+            <button class="zoom-slider__button swiper-slide" data-filter="landscape" type="button">
+              <span class="zoom-slider__button-title">Doordasht Ventures</span>
+            </button>
+            <button class="zoom-slider__button swiper-slide" data-filter="residential" type="button">
+              <span class="zoom-slider__button-title">PDRVC</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="specialization" class="zoom-services">
+      <div class="container">
+        <div class="zoom-services__title">Our services</div>
+        <div class="zoom-services__wrapper zoom-services__wrapper zoom-services__wrapper_bordered">
+          <div class="zoom-services__list">
+            <a class="zoom-services__item" href="#">
+              <span class="zoom-services__item-title">Motion Graphics</span>
+              <span class="zoom-services__item-footer"><span class="zoom-services__item-icon icon-apartment"></span><span class="zoom-services__more">more</span></span>
+            </a>
+            <a class="zoom-services__item" href="#">
+              <span class="zoom-services__item-title">UX design</span>
+              <span class="zoom-services__item-footer"><span class="zoom-services__item-icon icon-home"></span><span class="zoom-services__more">more</span></span>
+            </a>
+            <a class="zoom-services__item" href="#">
+              <span class="zoom-services__item-title">AI and Technology</span>
+              <span class="zoom-services__item-footer"><span class="zoom-services__item-icon icon-shovel"></span><span class="zoom-services__more">more</span></span>
+            </a>
+            <a class="zoom-services__item" href="#">
+              <span class="zoom-services__item-title">consulting and renovation</span>
+              <span class="zoom-services__item-footer"><span class="zoom-services__item-icon icon-bubbles"></span><span class="zoom-services__more">more</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="zoom-counters">
+      <div class="container">
+        <div class="row">
+          <div class="zoom-counters__item col-12 col-lg-6 col-xl-4">
+            <div class="zoom-counters__value">120
+              <div class="zoom-counters__value-inner js-counter" data-counter-value="12000">12,000</div>
+            </div>
+            <div class="zoom-counters__text">Partner
+              <br/>
+              worldwide
+            </div>
+          </div>
+          <div class="zoom-counters__item col-12 col-lg-6 col-xl-4">
+            <div class="zoom-counters__value">462
+              <div class="zoom-counters__value-inner js-counter" data-counter-value="4620">4,620</div>
+            </div>
+            <div class="zoom-counters__text">employees and
+              <br/>
+              staffs
+            </div>
+          </div>
+          <div class="zoom-counters__item col-12 col-lg-6 col-xl-4">
+            <div class="zoom-counters__value">275
+              <div class="zoom-counters__value-inner js-counter" data-counter-value="2750">2,750</div>
+            </div>
+            <div class="zoom-counters__text">project completed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="contact-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-5">
+            <div class="heading-smallest heading-smallest heading-smallest_has-offset heading-smallest heading-smallest_size_small">Information</div>
+            <div class="contact-block__place">Santa Monica, CA,
+              <span class="contact-block__place-marker">United States</span>
+            </div>
+            <div class="contact-block__text">
+              <p>No. 166 Main Street, Beverly Hills
+                <br/>
+                CA, 90210
+              </p>
+              <p>
+                <a href="tel:+00853462188">+3237400088</a>
+              </p>
+              <p>
+                <a href="mailto:infor@arquito.com">hello@alienchildstudio.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7">
+            <div class="heading-smallest heading-smallest heading-smallest_has-offset heading-smallest heading-smallest_size_small">get in touch</div>
+            <form class="contact-block__form">
+              <div class="row">
+                <div class="col-12 col-sm-6">
+                  <input class="contact-block__input-text" placeholder="Name" type="text"/>
                 </div>
-            </div>            
-        </div>        
+                <div class="col-12 col-sm-6">
+                  <input class="contact-block__input-text" placeholder="Subject" type="text"/>
+                </div>
+                <div class="col-12">
+                  <textarea class="contact-block__input-textarea" placeholder="Here goes your message"></textarea>
+                  <button class="contact-block__submit">Send Message
+                    <span class="contact-block__submit-icon icofont-caret-right"></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<!--JS-->
+<script src="assets/js/polyfill.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.viewport.min.js"></script>
+<script src="assets/js/jQuerySimpleCounter.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/animsition.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/rellax.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/svg4everybody.legacy.min.js"></script>
+<script src="assets/js/TweenMax.min.js"></script>
+<script src="assets/js/TimelineLite.min.js"></script>
+<script src="assets/js/typed.min.js"></script>
+<script src="assets/js/vivus.min.js"></script>
+<!--Google Maps JS-->
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyCwVuYiM-83l2IdjpT9uC0lg4jBm8-w4j8&amp;amp;ver=1"></script>
+<script src="assets/js/gmap.js"></script>
+<!--Theme JS-->
+<script src="assets/js/theme.js"></script>
+</body>
 
-        <!--Load JavaScript-->
-        <script src="js/jquery.js"></script>			                                                               
-        <script src='js/imagesloaded.pkgd.js'></script>                
-        <script src='js/jquery.prettyPhoto.js'></script>                
-        <script src='js/isotope.pkgd.js'></script>                
-        <script src='js/jquery.smartmenus.min.js'></script>                           
-        <script src='js/owl.carousel.min.js'></script>                                                            
-        <script src='js/circle-progress.min.js'></script>                                                            
-        <script src='js/main.js'></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158108611-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-158108611-1');
-</script>
-    </body>
 </html>
