@@ -1,157 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Alienchild - Dela Rostami</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" type="text/css" href="css/core.css">
-    <link rel="stylesheet" type="text/css" href="css/animsition.min.css">
-    <link rel="stylesheet" type="text/css" href="css/elements.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="icon" type="image/png" href="favicon.png?version=v1.0">
-  </head>
-  <body>
-    <div id="wrapper" class="animsition">
-      <div id="loader" class="fh">
-        <section class="vcenter">
-          <div class="container">
-            <div class="indicator"> <span class="number">00</span><span class="unit">%</span>
-              <div class="loadbar">
-                <div class="inner"></div>
-              </div>
-            </div>
-            <div class="img-count"><span class="loaded"></span><span class="description">images loaded</span></div>
-          </div>
-        </section>
-      </div>
-      <header id="main-header">
-        <div class="container">
-          <div class="grid">
-            <nav class="main-nav">
-              <div class="responsive-nav">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-              </div>
-              <ul class="nav-links">
-                <li class="col-1 brand"><a href="index.html"><img alt="Peel" src="images/logo.svg" class="default"></a></li>
-                <li class="col-1 has-dropdown"><a href="projects.html" class="nav-link undefined">Projects</a>
-<!--                   <ul class="dropdown">
-                    <li><a href="projects-1-column.html" class="nav-link undefined">Grid - One column</a>
-                    </li>
-                    <li><a href="projects-2-columns.html" class="nav-link undefined">Grid - Two columns</a>
-                    </li>
-                    <li><a href="projects-4-columns.html" class="nav-link undefined">Grid - Four columns</a>
-                    </li>
-                    <li><a href="projects-masonry.html" class="nav-link undefined">Grid - Masonry</a>
-                    </li>
-                    <li><a href="project-single.html" class="nav-link undefined">Project - Single</a>
-                    </li>
-                  </ul> -->
-                </li>
-                <li class="col-1 col-offset-1"><a href="profile.html" class="nav-link undefined">Profile</a>
-                </li>
-<!--                 <li class="col-1 col-offset-1"><a href="journal.html" class="nav-link undefined">Journal</a>
-                  <ul class="dropdown">
-                    <li><a href="journal.html" class="nav-link undefined">Journal - Overview</a>
-                    </li>
-                    <li><a href="journal-single.html" class="nav-link undefined">Journal - Article</a>
-                    </li>
-                  </ul>
-                </li> -->
-                <li class="col-1 col-offset-1"><a href="contact.html" class="nav-link undefined">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Alien Child Studio by PDRVC. An Outsider agency." name="description">
+  <meta content="Dela ROstami, Pedram Ariel Rostami, Alien Child Studio by PDRVC" name="author">
+  <title>Alien Child Studio by PDRVC</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400" rel="stylesheet">
+  <!--CSS-->
+  <link href="assets/css/icofont.min.css" rel="stylesheet">
+  <link href="assets/css/linearicons.min.css" rel="stylesheet">
+  <link href="assets/css/magnific-popup.min.css" rel="stylesheet">
+  <link href="assets/css/animsition.min.css" rel="stylesheet">
+  <link href="assets/css/swiper.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!--Theme CSS-->
+  <link href="assets/css/theme.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  <!--Favicons-->
+  <link href="favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="favicons/site.webmanifest" rel="manifest">
+  <link color="#5bbad5" href="favicons/safari-pinned-tab.svg" rel="mask-icon">
+  <link href="favicons/favicon.ico" rel="shortcut icon">
+  <meta content="#da532c" name="msapplication-TileColor">
+  <meta content="favicons/browserconfig.xml" name="msapplication-config">
+  <meta content="#ffffff" name="theme-color">
+</head>
+
+<body class="page">
+<div style="display: none">
+  <!-- svg sprite-->
+  <svg style="width:0; height:0; visibility:hidden;" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon_ion-icon-apps" viewBox="0 0 512 512">
+      <path d="M96 176h80V96H96v80zm120 240h80v-80h-80v80zm-120 0h80v-80H96v80zm0-120h80v-80H96v80zm120 0h80v-80h-80v80zM336 96v80h80V96h-80zm-120 80h80V96h-80v80zm120 120h80v-80h-80v80zm0 120h80v-80h-80v80z"/>
+    </symbol>
+  </svg>
+</div>
+<div class="page__inner animsition">
+  <header class="header  header_fixed header_offset">
+    <div class="header__container">
+      <div class="header__wrapper container-fluid">
+        <div class="header__inner">
+          <a class="logo header__logo" href="/">AC</a>
+          <button class="header__menu-button" type="button">
+            <span class="header__menu-button-inner"></span>
+          </button>
         </div>
-      </header>
-      <div id="inner">
-        <section class="behind-header">
-          <div id="home-slider" class="titanSlider fh fw">
-            <ul class="slides">
-                            <li class="slide dark">
-                              <div class="hero fs">
-                                <div style="background-image: url(images/hero/01.jpg);" class="bg faded"></div>
-                                <div class="vcenter">
-                                  <div class="container">
-                                    <div class="grid">
-                                      <div class="col-1">Welcome to</div>
-                                      <div class="col-7">
-                                        <div class="label">Alien Child Studio By</div><a href="project-single.html" class="project-link">
-                                          <h1 class="stripe animatedText">Dela Rostami</h1></a>
-                                        <div class="label">Full Stack Designer</div>
-                                        <div class="label">Co-Founder AWAYN.com</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-<!--                             <li class="slide dark">
-                              <div class="hero fs">
-                                <div style="background-image: url(images/hero/05.jpg);" class="bg faded"></div>
-                                <div class="vcenter">
-                                  <div class="container">
-                                    <div class="grid">
-                                      <div class="col-1">2016</div>
-                                      <div class="col-7">
-                                        <div class="label">November</div><a href="project-single.html" class="project-link">
-                                          <h1 class="stripe animatedText">Cardiac Arrest</h1></a>
-                                        <div class="label">Posters</div>
-                                        <div class="label">Banners</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                            <li class="slide dark">
-                              <div class="hero fs">
-                                <div style="background-image: url(images/hero/03.jpg);" class="bg faded"></div>
-                                <div class="vcenter">
-                                  <div class="container">
-                                    <div class="grid">
-                                      <div class="col-1">2015</div>
-                                      <div class="col-7">
-                                        <div class="label">May</div><a href="project-single.html" class="project-link">
-                                          <h1 class="stripe animatedText">Indectious Expressions</h1></a>
-                                        <div class="label">Artwork</div>
-                                        <div class="label">Photography</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                            <li class="slide dark">
-                              <div class="hero fs">
-                                <div style="background-image: url(images/hero/04.jpg);" class="bg faded"></div>
-                                <div class="vcenter">
-                                  <div class="container">
-                                    <div class="grid">
-                                      <div class="col-1">2014</div>
-                                      <div class="col-7">
-                                        <div class="label">April</div><a href="project-single.html" class="project-link">
-                                          <h1 class="stripe animatedText">Conquest</h1></a>
-                                        <div class="label">Posters</div>
-                                        <div class="label">Banners</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li> -->
-            </ul>
-          </div>
-        </section>
       </div>
     </div>
-    <script src="js/vendor.js"></script>
-    <script src="modules/titan-slider/titan-slider.js"></script>
-    <script src="modules/tera-lightbox/tera-lightbox.js"></script>
-    <script src="js/functions.js"></script>
-    <script>$('#home-slider').titanSlider();</script>
-  </body>
+
+  </header>
+  <main>
+    <div id="home" class="zoom-image-head">
+      <div class="zoom-image-head__body">
+        <div class="zoom-image-head__bg">
+          <div class="zoom-image-head__bg-inner" style="background-image: url('assets/img/zoom-image-head-bg.jpg')"></div>
+        </div>
+        <img alt="" class="zoom-image-head__bg2" src="assets/img/zoom-image-head-bg2.png"/>
+        <div class="zoom-image-head__content container">
+          <div class="zoom-image-head__subtitle">Welcome to</div>
+          <div class="zoom-image-head__title">Alien Child
+            <br/>
+            Studio
+            <div class="zoom-image-head__subtitle"> An outsider Creative Agency.</div>
+          </div>
+             <div class="zoom-image-head__text">
+          </div>
+          <div class="zoom-image-head__icon icofont-dotted-down"></div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="zoom-counter">
+      <div class="container">
+        <div class="zoom-counter__inner">
+          <div class="zoom-counter__card" style="background-image: url('assets/img/zoom-count-bg.jpg')">
+            <div class="zoom-counter__card-title">
+              <p>since</p>
+              <p>2010</p>
+            </div>
+            <div class="zoom-counter__card-value js-counter" data-counter-value="10">10</div>
+            <div class="zoom-counter__card-description">years
+              <br/>
+              experience
+            </div>
+          </div>
+          <div class="zoom-counter__info">
+            <div class="zoom-counter__subtitle">Alien Child studio</div>
+            <div class="zoom-counter__title">We Solve Problems Through Visual Storytelling
+   
+            </div>
+            <div class="zoom-counter__text">
+              <p>We are Alien Child Studio. <strong> An outsider Creative Agency.</strong><br> 
+At Alien Child, we are obsessed with using data and AI to turn your brand into a storyteller. 
+
+By leveraging compelling narratives, we help you place your customer at the heart of your story. </p>
+            </div>
+            <a class="zoom-counter__read-more zoom-counter__read-more_inverted" href="#">more about us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="works" class="zoom-slider">
+      <div class="zoom-slider__header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-2">
+              <div class="zoom-slider__title">Our Latest Clients</div>
+            </div>
+<!--             <div class="col-12 col-lg-8">
+              <div class="zoom-slider__filter">
+                <a class="zoom-slider__filter-link link link link_active" data-value="all" href="#">All</a>
+                <a class="zoom-slider__filter-link link" data-value="architecture" href="#">Architecture</a>
+                <a class="zoom-slider__filter-link link" data-value="residential" href="#">Residential</a>
+                <a class="zoom-slider__filter-link link" data-value="interior" href="#">Interior</a>
+                <a class="zoom-slider__filter-link link" data-value="landscape" href="#">Landscape</a>
+              </div>
+            </div> -->
+<!--             <div class="col-12 col-lg-2 text-lg-right">
+              <a class="zoom-slider__head-link" href="#">see all projects
+                <span class="zoom-slider__head-icon icon-chevron-right"></span>
+              </a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="zoom-slider__slider-wrapper">
+        <button class="zoom-slider__control zoom-slider__control_prev icon-chevron-left" type="button">
+          <span class="visually-hidden">prev</span>
+        </button>
+        <button class="zoom-slider__control zoom-slider__control_next icon-chevron-right" type="button">
+          <span class="visually-hidden">next</span>
+        </button>
+        <div class="zoom-slider__slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="zoom-slider__slide swiper-slide" data-filter="residential" style="background-image: url('img/zoom-slide-image-1.jpg')"></div>
+            <div class="zoom-slider__slide swiper-slide" data-filter="architecture" style="background-image: url('img/zoom-slide-image-2.jpg')"></div>
+            <div class="zoom-slider__slide swiper-slide" data-filter="residential" style="background-image: url('img/zoom-slide-image-3.jpg')"></div>
+            <div class="zoom-slider__slide swiper-slide" data-filter="interior" style="background-image: url('img/zoom-slide-image-4.jpg')"></div>
+            <div class="zoom-slider__slide swiper-slide" data-filter="landscape" style="background-image: url('img/zoom-slide-image-5.jpg')"></div>
+            <div class="zoom-slider__slide swiper-slide" data-filter="residential" style="background-image: url('img/zoom-slide-image-6.png')"></div>
+          </div>
+        </div>
+        <div class="zoom-slider__buttons swiper-container gallery-thumbs">
+          <div class="swiper-wrapper">
+            <button class="zoom-slider__button zoom-slider__button_active swiper-slide" data-filter="residential" type="button">
+              <span class="zoom-slider__button-title">CookRadar</span>
+            </button>
+            <button class="zoom-slider__button swiper-slide" data-filter="architecture" type="button">
+              <span class="zoom-slider__button-title">HotelsAPI</span>
+            </button>
+            <button class="zoom-slider__button swiper-slide" data-filter="residential" type="button">
+              <span class="zoom-slider__button-title">Companion</span>
+            </button>
+            <button class="zoom-slider__button swiper-slide" data-filter="interior" type="button">
+              <span class="zoom-slider__button-title">AWAYN</span>
+            </button>
+            <button class="zoom-slider__button swiper-slide" data-filter="landscape" type="button">
+              <span class="zoom-slider__button-title">Doordasht Ventures</span>
+            </button>
+            <button class="zoom-slider__button swiper-slide" data-filter="residential" type="button">
+              <span class="zoom-slider__button-title">PDRVC</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="specialization" class="zoom-services">
+      <div class="container">
+        <div class="zoom-services__title">Our services</div>
+        <div class="zoom-services__wrapper zoom-services__wrapper zoom-services__wrapper_bordered">
+          <div class="zoom-services__list">
+            <a class="zoom-services__item" href="#">
+              <span class="zoom-services__item-title">Motion Graphics</span>
+              <span class="zoom-services__item-footer"><span class="zoom-services__item-icon icon-apartment"></span><span class="zoom-services__more">more</span></span>
+            </a>
+            <a class="zoom-services__item" href="#">
+              <span class="zoom-services__item-title">UX design</span>
+              <span class="zoom-services__item-footer"><span class="zoom-services__item-icon icon-home"></span><span class="zoom-services__more">more</span></span>
+            </a>
+            <a class="zoom-services__item" href="#">
+              <span class="zoom-services__item-title">AI and Technology</span>
+              <span class="zoom-services__item-footer"><span class="zoom-services__item-icon icon-shovel"></span><span class="zoom-services__more">more</span></span>
+            </a>
+            <a class="zoom-services__item" href="#">
+              <span class="zoom-services__item-title">consulting and renovation</span>
+              <span class="zoom-services__item-footer"><span class="zoom-services__item-icon icon-bubbles"></span><span class="zoom-services__more">more</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="zoom-counters">
+      <div class="container">
+        <div class="row">
+          <div class="zoom-counters__item col-12 col-lg-6 col-xl-4">
+            <div class="zoom-counters__value">120
+              <div class="zoom-counters__value-inner js-counter" data-counter-value="12000">12,000</div>
+            </div>
+            <div class="zoom-counters__text">Partner
+              <br/>
+              worldwide
+            </div>
+          </div>
+          <div class="zoom-counters__item col-12 col-lg-6 col-xl-4">
+            <div class="zoom-counters__value">462
+              <div class="zoom-counters__value-inner js-counter" data-counter-value="4620">4,620</div>
+            </div>
+            <div class="zoom-counters__text">employees and
+              <br/>
+              staffs
+            </div>
+          </div>
+          <div class="zoom-counters__item col-12 col-lg-6 col-xl-4">
+            <div class="zoom-counters__value">275
+              <div class="zoom-counters__value-inner js-counter" data-counter-value="2750">2,750</div>
+            </div>
+            <div class="zoom-counters__text">project completed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="contact-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-5">
+            <div class="heading-smallest heading-smallest heading-smallest_has-offset heading-smallest heading-smallest_size_small">Information</div>
+            <div class="contact-block__place">Santa Monica, CA,
+              <span class="contact-block__place-marker">United States</span>
+            </div>
+            <div class="contact-block__text">
+              <p>No. 166 Main Street, Beverly Hills
+                <br/>
+                CA, 90210
+              </p>
+              <p>
+                <a href="tel:+00853462188">+3237400088</a>
+              </p>
+              <p>
+                <a href="mailto:infor@arquito.com">hello@alienchildstudio.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7">
+            <div class="heading-smallest heading-smallest heading-smallest_has-offset heading-smallest heading-smallest_size_small">get in touch</div>
+            <form class="contact-block__form">
+              <div class="row">
+                <div class="col-12 col-sm-6">
+                  <input class="contact-block__input-text" placeholder="Name" type="text"/>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <input class="contact-block__input-text" placeholder="Subject" type="text"/>
+                </div>
+                <div class="col-12">
+                  <textarea class="contact-block__input-textarea" placeholder="Here goes your message"></textarea>
+                  <button class="contact-block__submit">Send Message
+                    <span class="contact-block__submit-icon icofont-caret-right"></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<!--JS-->
+<script src="assets/js/polyfill.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.viewport.min.js"></script>
+<script src="assets/js/jQuerySimpleCounter.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/animsition.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/rellax.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/svg4everybody.legacy.min.js"></script>
+<script src="assets/js/TweenMax.min.js"></script>
+<script src="assets/js/TimelineLite.min.js"></script>
+<script src="assets/js/typed.min.js"></script>
+<script src="assets/js/vivus.min.js"></script>
+<!--Google Maps JS-->
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyCwVuYiM-83l2IdjpT9uC0lg4jBm8-w4j8&amp;amp;ver=1"></script>
+<script src="assets/js/gmap.js"></script>
+<!--Theme JS-->
+<script src="assets/js/theme.js"></script>
+</body>
+
 </html>
